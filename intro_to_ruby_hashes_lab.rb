@@ -22,7 +22,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  @Grace Hopper = hash[:name]
+  @key = hash["Grace Hopper"]
   return hash
 end
 
