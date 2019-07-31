@@ -35,6 +35,6 @@ def update_counting_hash(hash, key)
   if hash["hello"]
     hash["hello"] += 1
   else
-    puts "Key not found!"
+    hash["hello"] = 1
   end
 end
