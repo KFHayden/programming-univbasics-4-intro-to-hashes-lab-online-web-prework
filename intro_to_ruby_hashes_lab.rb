@@ -32,5 +32,9 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash["hello"
+  if hash["hello"]
+    hash["hello"] += 1
+  else
+    puts "Key not found!"
+  end
 end
